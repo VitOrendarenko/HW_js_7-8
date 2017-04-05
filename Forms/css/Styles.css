@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  font-family: Arial, sans-serif;
+  width: 550px;
+  height: 115px;
+  margin: 10px 0 0 10px;
+  border: 2px solid #6C6C6C;
+  border-radius: 3px;
+  padding: 10px 0 20px 10px;
+}
+
+.main {
+  float: left;
+}
+
+.field {
+  margin-top: 20px;
+}
+
+.field:first-child {
+  margin-top: 0;
+}
+
+#firstname {
+  margin-left: 2px;
+}
+
+#lastname {
+  margin-left: 3px;
+  margin-top: 5px;
+}
+
+#address {
+  margin-left: 14px;
+  margin-top: 5px;
+}
+
+#help {
+  background-color: #F6F6F6;
+  font-size: 18px;
+  border: 1px solid #C5C5C5;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-left: 10px;
+  line-height: 32px;
+  height: 35px;
+  width: 120px;
+  float: left;
+  clear: both;
+}
+
+#help:active {
+  background-color: #2E6DC5;
+  color: #fff;
+}
+
+p {
+  display: none;
+  width: 200px;
+  padding: 5px 0 1px 5px;
+  border: 1px solid #C5C5C5;
+  border-radius: 2px;
+  -webkit-box-shadow: 1px 1px 10px 0px rgba(197,197,197,1);
+  -moz-box-shadow: 1px 1px 10px 0px rgba(197,197,197,1);
+  box-shadow: 1px 1px 10px 0px rgba(197,197,197,1);;
+}
+
+.tip_firstname {
+  position: absolute;
+  top: 15px;
+  left: 285px;
+}
+
+.tip_lastname {
+  position: absolute;
+  top: 58px;
+  left: 285px;
+}
+
+.tip_address {
+  position: absolute;
+  top: 101px;
+  left: 285px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
